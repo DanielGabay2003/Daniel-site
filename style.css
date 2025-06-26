@@ -1,0 +1,20 @@
+body {
+	font-size: 120%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #00cfff, #00e5ff, #b2ffff);;
+}
+h1, h2, h3 {
+    text-decoration: underline;
+}
+img {
+	height:300px;
+	border:5px solid black;
+	display: block;              /* allows centering with margin auto */
+    margin: 30px auto;
+}
+img:hover {
+		  transform: scale(1.05); /* slightly zoom in */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    border-color: #aaa; /* optional darker border on hover */
+}
